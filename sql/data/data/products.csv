@@ -1,0 +1,6 @@
+ProductID,ProductName,SupplierID,UnitPrice,ReorderLevel
+101,Widget A,1,10.50,20
+102,Widget B,2,15.00,15
+103,Gadget C,3,8.75,30
+104,Gadget D,4,12.25,25
+105,Component E,2,5.50,40
