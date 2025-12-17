@@ -1,0 +1,26 @@
+INSERT INTO Suppliers VALUES
+(1, 'Acme Corp', '123-456-7890', 'USA'),
+(2, 'Global Supplies', '987-654-3210', 'China'),
+(3, 'Euro Parts', '555-222-1111', 'Germany'),
+(4, 'Asia Manufacturing', '666-333-9999', 'India');
+
+INSERT INTO Products VALUES
+(101, 'Widget A', 1, 10.50, 20),
+(102, 'Widget B', 2, 15.00, 15),
+(103, 'Gadget C', 3, 8.75, 30),
+(104, 'Gadget D', 4, 12.25, 25),
+(105, 'Component E', 2, 5.50, 40);
+
+INSERT INTO Inventory VALUES
+(1, 101, 50, '2025-12-01'),
+(2, 102, 10, '2025-12-01'),
+(3, 103, 60, '2025-12-01'),
+(4, 104, 20, '2025-12-01'),
+(5, 105, 35, '2025-12-01');
+
+INSERT INTO Orders VALUES
+(1001, 101, '2025-11-28', 30, 'Delivered'),
+(1002, 102, '2025-11-30', 20, 'Pending'),
+(1003, 103, '2025-12-02', 25, 'Delivered'),
+(1004, 104, '2025-12-05', 15, 'Pending'),
+(1005, 105, '2025-12-06', 40, 'Delivered');
